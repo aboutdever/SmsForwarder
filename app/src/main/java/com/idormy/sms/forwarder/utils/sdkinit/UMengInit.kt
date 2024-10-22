@@ -27,10 +27,10 @@ class UMengInit private constructor() {
          */
         @JvmOverloads
         fun init(context: Context = XUI.getContext()) {
-            val appContext = context.applicationContext
-            if (appContext is Application) {
-                initApplication(appContext)
-            }
+            //val appContext = context.applicationContext
+            //if (appContext is Application) {
+            //    initApplication(appContext)
+            //}
         }
 
         /**
